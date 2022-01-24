@@ -1,7 +1,7 @@
 {
   "name": "window.navigator",
   "description": "Modify 'window.navigator' property values.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "manifest_version": 2,
   "options_page": "options_ui/options.html",
   "content_scripts": [
