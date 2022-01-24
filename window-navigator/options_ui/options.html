@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebExtension Options</title>
+  <style>
+    body > div {font-family: sans-serif; font-size: 13px; line-height: 1.5em; margin-bottom: 1em; text-align: center;}
+    body > div > span, body > div > textarea {display: block; margin-bottom: 0.5em; padding: 0.25em; width: 100%; box-sizing: border-box; text-align: left;}
+    body > div > button {display: inline-block; max-width: 49%;}
+    #nav_value {height: 20em; max-height: 75%; overflow: auto;}
+  </style>
+</head>
+<body>
+
+<div>
+  <span><i>"window.navigator"</i> value in JSON:</span>
+  <textarea id="nav_value"></textarea>
+</div>
+
+<div id="status"></div>
+
+<div>
+  <button id="demo">Add Sample Data</button>
+  <button id="save">Save</button>
+</div>
+
+<script src="options.js"></script>
+</body>
+</html>

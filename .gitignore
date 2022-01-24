@@ -1,0 +1,5 @@
+window-navigator.pem
+window-navigator.crx*
+window-navigator.xpi
+
+.bin/**/temp/
